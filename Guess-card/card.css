@@ -1,0 +1,55 @@
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.conatiner{
+    width: 80%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: cornflowerblue;
+    margin-left: 10%;
+}
+
+.padd{
+    padding: 20px;
+}
+
+.header{
+    height: 50px;
+    width:100%;
+    background-color:rgb(21, 17, 235);
+    display: flex;
+    justify-content: space-between;
+}
+
+.cards{
+    width: 100%;
+    background-color:cornflowerblue;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+}
+
+.card{
+    height: 300px;
+    width: 18%;
+    /* background-color: red; */
+    margin-top: 20px;
+    background-size: cover;
+}
+
+.overlay{
+    height: 300px;
+    width: 100%;
+    background-color: #ade6d0;
+}
+
+.opened{
+    display: none;
+    align-content: center;
+}
